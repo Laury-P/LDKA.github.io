@@ -10,6 +10,7 @@ body{
     border-radius: 50%;
     border: solid #DB9392 1px;
     width: 15%;
+    box-shadow:2px 2px 2px #B65F5D ;
 }
 .logo-lien{
     width: 50px;
