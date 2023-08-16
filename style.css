@@ -2,6 +2,7 @@ body{
     color: black;
     background: url(images/fond-diamants-rose.avif) fixed repeat;
     font-family: 'Dosis', sans-serif;
+    padding: 1%;
 }
 
 .logo-accueil{
@@ -21,7 +22,10 @@ body{
 h1{
     color: #B65F5D;
     font-family: 'Parisienne', cursive;
-    font-size: xx-large;
+}
+
+h2{
+    color: #DB9392;
 }
 
 header{
@@ -30,7 +34,6 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1%;
     padding: 1%;
     border-radius: 15px;
     box-shadow:2px 2px 2px #B65F5D;
@@ -47,10 +50,18 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: #DB9392;
+    background-color: #DB9392;
+    color: white;
     font-weight: 600;
-    border: #DB9392 solid 1px;
     border-radius: 15px;
     padding:10px;
     text-align: center;
+}
+
+section{
+    background-color: white;
+    padding: 2%;
+    margin-top: 25px;
+    border-radius: 15px;
+    box-shadow:2px 2px 2px #DB9392;
 }
