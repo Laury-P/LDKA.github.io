@@ -1,0 +1,73 @@
+form{
+    margin-top: 20px;
+}
+
+fieldset{
+    margin: 40px 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding:1% 3%;
+    border: #853938 solid 1px;
+}
+
+
+legend{
+    font-weight: 600;
+    text-decoration: dotted;
+    color: #5e2322;
+}
+
+#description-projet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#senteurs, #detail-projet{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#detail-projet{
+    width:65%;
+    margin-top: 2%;
+}
+
+#detail-projet div{
+    margin-bottom: 15px;
+}
+
+textarea{
+    margin-top: 10px;
+}
+
+#detail-projet label{
+    margin-right: 10px;
+}
+
+#text-description{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="submit"]{
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: solid #DB9392 1px;
+    box-shadow: 1px 1px 1px #B65F5D;
+    background-color: #DB9392;
+    color: white;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+}
+
+#coordonnee div{
+    margin-bottom: 10px;
+}
+
+#coordonnee input{
+    margin-right: 30px;
+    margin-left: 10px;
+}

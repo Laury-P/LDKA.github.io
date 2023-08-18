@@ -24,7 +24,7 @@
     </header>
     <main>
         <form action="commande.html" method="post">
-            <fieldset>
+            <fieldset id="coordonnee">
                 <legend>Tout d'abord, parlez-moi de vous:</legend>
                 <div>
                     <label for="nom">Nom:</label>
@@ -40,49 +40,87 @@
                 </div>
             </fieldset>
 
-            <fieldset>
+            <fieldset id="description-projet">
                 <legend>Description de votre projet:</legend>
-                <legend for="senteur">Sélectionner les senteurs que vous voulez:</legend>
-                <div>
-                    <input type="checkbox" id="fleur-cerise" name="fleur-cerise">
-                    <label for="fleur-cerise">Fleur de cerisier</label>
-                    <input type="checkbox" id="pomme-Amour" name="pomme-Amour">
-                    <label for="pomme-Amour">Pomme d'amour</label>
-                    <input type="checkbox" id="tagada" name="tagada">
-                    <label for="tagada">Fraise Tagada</label>
-                    <input type="checkbox" id="barbapapa" name="barbapapa">
-                    <label for="barbapapa">Barbapapa</label>
-                    <input type="checkbox" id="citron-meringue" name="citron-meringue">
-                    <label for="citron-meringue">Citron meringuée</label>
-                    <input type="checkbox" id="monoi" name="monoi">
-                    <label for="monoi">Monoï</label>
-                    <input type="checkbox" id="coton" name="coton">
-                    <label for="coton">Fleur de coton</label>
-                    <input type="checkbox" id="cupcake" name="cupcake">
-                    <label for="cupcake">Cupcake</label>
-                    <input type="checkbox" id="reve" name="reve">
-                    <label for="reve">Attrape-rêve</label>
-                    <input type="checkbox" id="tahiti" name="tahiti">
-                    <label for="tahiti">Relaxation à tahiti</label>
-                    <input type="checkbox" id="cerise" name="cerise">
-                    <label for="cerise">Cerises</label>
-                    <input type="checkbox" id="caramel" name="caramel">
-                    <label for="caramel">Caramel beurre salé</label>
-                    <input type="checkbox" id="mojito" name="mojito">
-                    <label for="mojito">Mojito</label>
-                    <input type="checkbox" id="chanvre" name="chanvre">
-                    <label for="chanvre">Chanvre</label>
-                    <input type="checkbox" id="musty" name="musty">
-                    <label for="musty">Musty</label>
+    
+                <div id="senteurs">
+                    <p>Sélectionner les senteurs que vous voulez:</p>
+                    <div>
+                        <input type="checkbox" id="fleur-cerise" name="fleur-cerise">
+                        <label for="fleur-cerise">Fleur de cerisier</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="pomme-Amour" name="pomme-Amour">
+                        <label for="pomme-Amour">Pomme d'amour</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tagada" name="tagada">
+                        <label for="tagada">Fraise Tagada</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="barbapapa" name="barbapapa">
+                        <label for="barbapapa">Barbapapa</label>
+                    </div>    
+                    <div>
+                        <input type="checkbox" id="citron-meringue" name="citron-meringue">
+                        <label for="citron-meringue">Citron meringuée</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="monoi" name="monoi">
+                        <label for="monoi">Monoï</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="coton" name="coton">
+                        <label for="coton">Fleur de coton</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cupcake" name="cupcake">
+                        <label for="cupcake">Cupcake</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="reve" name="reve">
+                        <label for="reve">Attrape-rêve</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tahiti" name="tahiti">
+                        <label for="tahiti">Relaxation à tahiti</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cerise" name="cerise">
+                        <label for="cerise">Cerises</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="caramel" name="caramel">
+                        <label for="caramel">Caramel beurre salé</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="mojito" name="mojito">
+                        <label for="mojito">Mojito</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="chanvre" name="chanvre">
+                        <label for="chanvre">Chanvre</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="musty" name="musty">
+                        <label for="musty">Musty</label>
+                    </div>
                 </div>
-                <label for="budget">Quel est votre budget max?</label>
-                <input type="number" max="1000" min="0" value="50" id="budget" name="budget">
-                <div>
-                    <label for="description">Décrivez en quelque mots votre projet:</label>
-                    <textarea name="description" id="description"></textarea>
+                <div id="detail-projet">
+                    <div>
+                        <label for="budget">Quel est votre budget max?</label>
+                        <input type="number" max="1000" min="0" value="50" id="budget" name="budget">
+                    </div>
+                    <div>
+                        <label for="date">A quel date souhaitez vous avoir votre projet?</label>
+                        <input type="date">
+                    </div>
+                    <div id="text-description">
+                        <label for="description">Décrivez en quelque mots votre projet:</label>
+                        <textarea name="description" rows="10" id="description"></textarea>
+                    </div>
                 </div>
-                <label for="date">A quel date souhaitez vous avoir votre projet?</label>
-                <input type="date">
+                
             </fieldset>
             <input type="submit" value="Envoyer">
         </form>

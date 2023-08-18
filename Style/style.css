@@ -1,6 +1,6 @@
 body{
     color: black;
-    background: url(images/fond-diamants-rose.avif) fixed repeat;
+    background: url(../images/fond-diamants-rose.avif) fixed repeat;
     font-family: 'Dosis', sans-serif;
     padding: 1%;
 }
