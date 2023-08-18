@@ -22,12 +22,68 @@
         </nav>   
     </header>
     <main>
-        <form></form>
-        <!--formulaire pour les projet bougie + tarif coffret?
-        formulaire: nom prenom, numeros de tel, adresse mail, 
-        description projet, choix des senteur, budget-->
-        
+        <form action="" method="post">
+            <fieldset>
+                <legend>Tout d'abord, parlez-moi de vous:</legend>
+                <div>
+                    <label for="nom">Nom:</label>
+                    <input type="text" name="nom" id="nom" maxlength="30" required>
+                    <label for="prenom">Prénom:</label>
+                    <input type="text" name="prenom" id="prenom" maxlength="30" required>
+                </div>
+                <div>
+                    <label for="tel">Numéros de téléphone:</label>
+                    <input type="tel" name="tel" id="tel" maxlength="10">
+                    <label for="mail">Email:</label>
+                    <input type="email" name="mail" id="mail" maxlength="70">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Votre projet:</legend>
+                <legend for="senteur">Sélectionner les senteurs que vous voulez:</legend>
+                <div>
+                    <input type="checkbox" id="fleur-cerise" name="fleur-cerise">
+                    <label for="fleur-cerise">Fleur de cerisier</label>
+                    <input type="checkbox" id="pomme-Amour" name="pomme-Amour">
+                    <label for="pomme-Amour">Pomme d'amour</label>
+                    <input type="checkbox" id="tagada" name="tagada">
+                    <label for="tagada">Fraise Tagada</label>
+                    <input type="checkbox" id="barbapapa" name="barbapapa">
+                    <label for="barbapapa">Barbapapa</label>
+                    <input type="checkbox" id="citron-meringue" name="citron-meringue">
+                    <label for="citron-meringue">Citron meringuée</label>
+                    <input type="checkbox" id="monoi" name="monoi">
+                    <label for="monoi">Monoï</label>
+                    <input type="checkbox" id="coton" name="coton">
+                    <label for="coton">Fleur de coton</label>
+                    <input type="checkbox" id="cupcake" name="cupcake">
+                    <label for="cupcake">Cupcake</label>
+                    <input type="checkbox" id="reve" name="reve">
+                    <label for="reve">Attrape-rêve</label>
+                    <input type="checkbox" id="tahiti" name="tahiti">
+                    <label for="tahiti">Relaxation à tahiti</label>
+                    <input type="checkbox" id="cerise" name="cerise">
+                    <label for="cerise">Cerises</label>
+                    <input type="checkbox" id="caramel" name="caramel">
+                    <label for="caramel">Caramel beurre salé</label>
+                    <input type="checkbox" id="mojito" name="mojito">
+                    <label for="mojito">Mojito</label>
+                    <input type="checkbox" id="chanvre" name="chanvre">
+                    <label for="chanvre">Chanvre</label>
+                    <input type="checkbox" id="musty" name="musty">
+                    <label for="musty">Musty</label>
+                </div>
+                <label for="budget">Quel est votre budget max?</label>
+                <input type="number" max="1000" min="0" value="50" id="budget" name="budget">
+                <div>
+                    <label for="description">Décrivez en quelque mots votre projet:</label>
+                    <textarea name="description" id="description"></textarea>
+                </div>
+            </fieldset>
+        </form>
     </main>
+
     <footer>
         <p>Trouvez moi sur les réseaux:</p>
         <a href="https://www.instagram.com/ldk.86/">
