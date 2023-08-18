@@ -22,7 +22,7 @@
         </nav>   
     </header>
     <main>
-        <form action="" method="post">
+        <form action="commande.html" method="post">
             <fieldset>
                 <legend>Tout d'abord, parlez-moi de vous:</legend>
                 <div>
@@ -33,14 +33,14 @@
                 </div>
                 <div>
                     <label for="tel">Numéros de téléphone:</label>
-                    <input type="tel" name="tel" id="tel" maxlength="10">
+                    <input type="tel" name="tel" id="tel" maxlength="10" required>
                     <label for="mail">Email:</label>
                     <input type="email" name="mail" id="mail" maxlength="70">
                 </div>
             </fieldset>
 
             <fieldset>
-                <legend>Votre projet:</legend>
+                <legend>Description de votre projet:</legend>
                 <legend for="senteur">Sélectionner les senteurs que vous voulez:</legend>
                 <div>
                     <input type="checkbox" id="fleur-cerise" name="fleur-cerise">
@@ -81,6 +81,7 @@
                     <textarea name="description" id="description"></textarea>
                 </div>
             </fieldset>
+            <input type="submit" value="Envoyer">
         </form>
     </main>
 
