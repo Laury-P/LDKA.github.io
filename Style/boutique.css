@@ -21,3 +21,24 @@ img{
     flex-wrap: wrap;
     gap: 15px;
 }
+
+h2{
+    text-align: center;
+}
+
+#coffret-20{
+    margin-top: 50px;
+}
+
+#coffret fieldset{
+    margin-top: 15px;
+    border: solid 1px  #DB9392;
+}
+
+legend{
+    color: #882f2e;;
+}
+
+#coffret input[type="submit"]{
+    margin-top: 10px;
+}
