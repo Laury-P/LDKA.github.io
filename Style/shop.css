@@ -1,3 +1,23 @@
 img{
-    max-width: 150px;
+    max-width: 170px;
+}
+
+#shop-fondant form{
+    display: flex;
+    flex-direction: column;
+    max-width: 170px;
+    align-items: center;
+
+}
+
+#shop-fondant input[type="number"]{
+    max-width: 50px;
+    margin: 5px 0px;
+}
+
+#shop-fondant {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
 }
