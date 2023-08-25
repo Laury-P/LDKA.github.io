@@ -2,7 +2,7 @@ img{
     max-width: 170px;
 }
 
-#shop-fondant form{
+#boutique-fondant form{
     display: flex;
     flex-direction: column;
     max-width: 170px;
@@ -10,12 +10,12 @@ img{
 
 }
 
-#shop-fondant input[type="number"]{
+#boutique-fondant input[type="number"]{
     max-width: 50px;
     margin: 5px 0px;
 }
 
-#shop-fondant {
+#boutique-fondant {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
