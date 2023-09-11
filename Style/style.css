@@ -58,6 +58,11 @@ nav a{
     text-align: center;
 }
 
+nav a:hover{
+    background color: #B86260;
+    box-shadow: inset 2px 2px 2px #943D3B;
+}
+
 section{
     background-color: rgba(255, 255, 255, 0.8);
     padding: 2%;
