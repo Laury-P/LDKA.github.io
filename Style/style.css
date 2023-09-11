@@ -5,6 +5,15 @@ body{
     padding: 1%;
 }
 
+main a {
+    text-decoration: none;
+    color: #B86260;
+}
+
+main a:hover{
+    color: #943D3B;
+}
+
 .logo-accueil{
     max-width: 100px;
     max-height: 100px;
