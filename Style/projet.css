@@ -64,7 +64,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-    box-shadow:inset;
+    box-shadow:inset 1px 1px 1px #B65F5D;
     cursor:pointer;
 }
 
