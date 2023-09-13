@@ -31,7 +31,6 @@ main a:hover{
     display: inline-block;
     width:50px;
     height:50px;
-    position: static;
     margin-right: 10px;
 }
 
@@ -40,6 +39,14 @@ main a:hover{
     height: 50px;
     border-radius: 50%;
     position: absolute;
+}
+
+.logo-lien-couleur{
+    visibility: hidden;    
+}
+
+.logo-lien-couleur:hover{
+    visibility: visible;
 }
 
 h1{
