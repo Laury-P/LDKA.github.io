@@ -41,13 +41,13 @@ main a:hover{
     position: absolute;
 }
 .logo-lien-nb {
-    z-order: 2;
+    z-index: 1;
 }
 .logo-lien-couleur{
-    z-order:3;
+    z-index:0;
 }
 .lien-footer:hover + .logo-lien-couleur{
-    z-order:1;
+    z-index:2;
 }
 
 h1{
