@@ -26,10 +26,40 @@ main a:hover{
     width: 15%;
     box-shadow:2px 2px 2px #B65F5D ;
 }
-.logo-lien-nb, .logo-lien-couleur{
+
+#lien-facebook, #lien-insta, #lien-mail{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    margin-right: 10px;
+}
+
+#logo-couleur-facebook, #logo-couleur-insta, #logo-couleur-mail{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    position: absolute;
+    z-index:0;
+}
+
+.logo-lien-nb {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#lien-facebook:hover  #logo-couleur-facebook{
+    z-index:2;
+}
+
+#lien-insta:hover  #logo-couleur-insta{
+    z-index:2;    
+}
+
+#lien-mail:hover  #logo-couleur-mail{
+    z-index:2;
 }
 
 h1{
