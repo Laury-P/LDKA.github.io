@@ -50,15 +50,15 @@ main a:hover{
     position: absolute;
 }
 
-#lien-facebook:hover + #logo-couleur-facebook{
+#lien-facebook:hover  #logo-couleur-facebook{
     z-index:2;
 }
 
-#lien-insta:hover + #logo-couleur-insta{
+#lien-insta:hover  #logo-couleur-insta{
     z-index:2;    
 }
 
-#lien-mail:hover + #logo-couleur-mail{
+#lien-mail:hover  #logo-couleur-mail{
     z-index:2;
 }
 
