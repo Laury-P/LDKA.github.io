@@ -36,7 +36,7 @@ h2{
 }
 
 legend{
-    color: #882f2e;;
+    color: #882f2e;
 }
 
 #coffret input[type="submit"]{
@@ -44,10 +44,6 @@ legend{
 }
 
 input[type="submit"]:hover{
-    color: #B2324F;
     cursor: pointer;
-    background-color: white;
-    border: #B2324F 1px solid;
-    border-radius: 2%;
 }
 
