@@ -28,9 +28,9 @@ main a:hover{
 }
 
 .lien-footer{
-    with:50px;
+    width:50px;
     height:50px;
-    position: relative;
+    position: static;
 }
 
 .logo-lien-nb, .logo-lien-couleur{
