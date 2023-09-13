@@ -49,6 +49,10 @@ main a:hover{
     visibility: visible;
 }
 
+.logo-lien-nb:hover{
+    visibility:hidden;
+}
+
 h1{
     color: #B65F5D;
     font-family: 'Parisienne', cursive;
