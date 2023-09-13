@@ -16,7 +16,6 @@ main a {
 main a:hover{
     color: #943D3B;
     font-weight:700;
-    text-decoration: underline #943D3B;
 }
 
 .logo-accueil{
