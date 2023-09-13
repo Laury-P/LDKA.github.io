@@ -40,17 +40,14 @@ main a:hover{
     border-radius: 50%;
     position: absolute;
 }
-
+.logo-lien-nb {
+    z-order: 1;
+}
 .logo-lien-couleur{
-    visibility: hidden;    
+    z-order:0;
 }
-
-.logo-lien-couleur:hover{
-    visibility: visible;
-}
-
-.logo-lien-nb:hover{
-    visibility:hidden;
+.lien-footer:hover + .logo-lien-couleur{
+    z-order:2;
 }
 
 h1{
