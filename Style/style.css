@@ -4,6 +4,9 @@ body{
     font-family: 'Dosis', sans-serif;
     padding: 1%;
 }
+a:hover{
+    cursor:pointer;
+}
 
 main a {
     text-decoration: none;
