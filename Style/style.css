@@ -4,6 +4,19 @@ body{
     font-family: 'Dosis', sans-serif;
     padding: 1%;
 }
+a:hover{
+    cursor:pointer;
+}
+
+main a {
+    text-decoration: none;
+    color: #B86260;
+}
+
+main a:hover{
+    color: #943D3B;
+    font-weight:700;
+}
 
 .logo-accueil{
     max-width: 100px;
@@ -56,6 +69,11 @@ nav a{
     border-radius: 15px;
     padding:10px;
     text-align: center;
+}
+
+nav a:hover{
+    background color: #B86260;
+    box-shadow: inset 2px 2px 2px #943D3B;
 }
 
 section{
