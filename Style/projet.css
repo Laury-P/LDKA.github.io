@@ -63,6 +63,11 @@ input[type="submit"]{
     margin: auto;
 }
 
+input[type="submit"]:hover{
+    box-shadow:inset;
+    cursor:pointer;
+}
+
 #coordonnee div{
     margin-bottom: 10px;
 }
