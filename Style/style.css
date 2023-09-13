@@ -28,10 +28,11 @@ main a:hover{
 }
 
 .lien-footer{
-    display: block;
+    display: inline-block;
     width:50px;
     height:50px;
     position: static;
+    margin-right: 10px;
 }
 
 .logo-lien-nb, .logo-lien-couleur{
