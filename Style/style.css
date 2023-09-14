@@ -111,3 +111,26 @@ section{
     border-radius: 15px;
     box-shadow:2px 2px 2px #DB9392;
 }
+
+
+/* Adaptation du design au écran de téléphone portable */
+
+@media screen and (max-width:480px){
+/* Pour header */
+    header{
+        display:block;
+    }
+
+    .logo-accueil{
+        display:inline;
+    }
+    
+    nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+/* Pour footer */
+    
+}
