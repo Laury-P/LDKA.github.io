@@ -115,10 +115,11 @@ section{
 
 /* Adaptation du design au écran de téléphone portable */
 
-@media screen and (max-width:480px){
+@media screen and (max-width:1200px){
 /* Pour header */
     header{
-        display:block;
+        display:flex;
+        flex-direction: column;
     }
 
     .logo-accueil{
