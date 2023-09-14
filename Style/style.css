@@ -1,57 +1,9 @@
+/* Toute les pages*/
 body{
     color: black;
     background: url(../images/fond-diamants-rose.avif) fixed repeat;
     font-family: 'Dosis', sans-serif;
     padding: 1%;
-}
-a:hover{
-    cursor:pointer;
-}
-
-main a {
-    text-decoration: none;
-    color: #B86260;
-}
-
-main a:hover{
-    color: #943D3B;
-    font-weight:700;
-}
-
-.logo-accueil{
-    max-width: 100px;
-    max-height: 100px;
-    border-radius: 50%;
-    border: solid #DB9392 1px;
-    width: 15%;
-    box-shadow:2px 2px 2px #B65F5D ;
-}
-
-#lien-facebook, #lien-insta, #lien-mail{
-    display: inline-block;
-    width:50px;
-    height:50px;
-    margin-right: 10px;
-}
-
-#logo-couleur-facebook, #logo-couleur-insta, #logo-couleur-mail{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-    z-index:0;
-}
-
-.logo-lien-nb {
-    z-index: 1;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: absolute;
-}
-
-#lien-facebook:hover  #logo-couleur-facebook,#lien-insta:hover  #logo-couleur-insta,#lien-mail:hover  #logo-couleur-mail{
-    z-index:2;
 }
 
 h1{
@@ -61,6 +13,32 @@ h1{
 
 h2{
     color: #DB9392;
+}
+
+main a {
+    text-decoration: none;
+    color: #B86260;
+}
+
+/*Dynamique sur toute les page*/
+a:hover{
+    cursor:pointer;
+}
+
+main a:hover{
+    color: #943D3B;
+    font-weight:700;
+}
+
+/*Header*/
+
+.logo-accueil{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    border: solid #DB9392 1px;
+    width: 15%;
+    box-shadow:2px 2px 2px #B65F5D ;
 }
 
 header{
@@ -81,6 +59,31 @@ nav{
     gap: 5px;
     margin: 5px;
     width: 15%;
+}
+
+/* Footer */
+#lien-facebook, #lien-insta, #lien-mail{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    margin-right: 10px;
+}
+#logo-couleur-facebook, #logo-couleur-insta, #logo-couleur-mail{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index:0;
+}
+.logo-lien-nb {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+#lien-facebook:hover  #logo-couleur-facebook,#lien-insta:hover  #logo-couleur-insta,#lien-mail:hover  #logo-couleur-mail{
+    z-index:2;
 }
 
 nav a{
