@@ -118,8 +118,7 @@ section{
 @media screen and (max-width:1200px){
 /* Pour header */
     header{
-        display:flex;
-        flex-direction: column;
+        display:block;
     }
 
     .logo-accueil{
@@ -130,6 +129,7 @@ section{
         display:flex;
         flex-direction: row;
         justify-content: space-around;
+        width:80%;
     }
 
 /* Pour footer */
