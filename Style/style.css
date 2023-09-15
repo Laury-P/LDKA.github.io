@@ -118,10 +118,6 @@ section{
 @media screen and (max-width:1200px){
 /* Pour header */
     header{
-        display:block;
-    }
-
-    .logo-accueil{
         display:inline;
     }
     
@@ -132,6 +128,13 @@ section{
         width:80%;
     }
 
+    header h1{
+        text-align:center;    
+    }
+    
+    nav a{
+        width: 25%;
+    }
 /* Pour footer */
     
 }
